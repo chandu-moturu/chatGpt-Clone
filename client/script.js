@@ -77,7 +77,7 @@ const handleSubmit = async(e)=>{
 
   loader(messageDiv);
   //fetch data from server -> bots response
-  const response= await fetch('https://chatgptclone-vb2q.onrender.com/g',{
+  const response= await fetch('https://chatgptclone-vb2q.onrender.com/',{
     method:'POST',
     headers:{
       'Content-Type':'application/json'
