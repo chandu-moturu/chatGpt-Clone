@@ -6,6 +6,7 @@ const chatContainer = document.querySelector('#chat_container');
 
 let loadinterval;
 
+//function for loading until we get data..
 
 function loader(element){
   element.textContent='';
