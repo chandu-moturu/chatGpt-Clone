@@ -88,7 +88,7 @@ const handleSubmit = async(e)=>{
     })
   })
   clearInterval(loadinterval);
-  messageDiv.innerHTML='';
+  messageDiv.innerHTML=" ";
 
   //actual response
 
